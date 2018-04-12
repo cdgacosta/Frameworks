@@ -1,0 +1,126 @@
+.music{
+	background-color: #0F8684;	
+}
+
+.articulos{
+	background-color: white;
+	margin-left: 9%;
+	border-radius: 10px;
+}
+
+.cuerpo{
+	border-radius: 10px;
+}
+
+.container{
+	background: url(../img/images.png);
+	background-color: white;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius:10px;
+	width: 84%; 
+}
+
+.img_adele19{
+	width: 500px;
+	border-radius: 10px;
+	margin-left: 60px;
+}
+
+.comentario1{
+width: 500px;
+margin-top: 30px;
+border-radius: 10px;
+}
+
+.comentarioprimerarticulo{
+	width: 500px;
+}
+
+.glyphicon-user {
+	font-size: 40px;
+margin-top: 30px;
+}
+
+.img_adele21{
+	margin-left: 130px;
+	border-radius: 10px;
+}
+.titulo{
+	
+font-family: 'Shadows Into Light Two', cursive;
+font-size: 40px;
+background-color: #35C0C0;
+text-align: center;
+border-radius: 10px;
+}
+
+.text19{
+	font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 700px){
+	.articulos{
+		margin-left: 5%;
+		width: 90%;
+		margin-top: 30px;
+		text-align: justify;
+	}
+
+	.container{
+		background: url(../img/fondo-celular.jpg);
+		background-color: white;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius:10px;
+		width: 100%; 
+	}
+	.busqueda{
+		margin-top: 30px;
+		
+	}
+	.lista{
+		width: 90%;
+		margin-top:30px;
+		margin-left: 30px;
+	}
+	.img_adele19{
+		margin-right: 300px;
+		width: 400px;;
+	}
+	.exampleInputAmount{
+		width: 80%;
+		margin-left: 30%;
+	}
+
+	.cuerpo{
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+	.articulos_21{
+		margin-left: 5%;
+		width: 90%;
+		margin-top: 30px;
+		text-align: justify;
+	}
+
+	.img_adele21{
+	 border-radius: 30px;
+	 margin-left: 40px;
+	 margin-top: 30px;	
+	}
+	
+	.comentario1{
+		width: 400px;
+		border-radius: 10px;
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+
+	.text19{
+		margin: 10%
+	}
+}
